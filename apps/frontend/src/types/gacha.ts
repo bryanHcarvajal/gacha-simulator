@@ -1,4 +1,3 @@
-// apps/frontend/src/types/gacha.ts
 export enum Rarity {
   SSR = 5,
   SR = 4,
@@ -23,7 +22,7 @@ export interface Banner {
   name: string;
   description: string;
   imageUrl?: string;
-  // No necesitamos rateUpServants/CEs en el frontend para la visualización inicial del banner
+  
 }
 
 export interface RollResult extends GachaItem {

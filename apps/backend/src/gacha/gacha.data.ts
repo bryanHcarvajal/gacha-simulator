@@ -3,11 +3,11 @@ import { Banner, GachaItem, Rarity, CardType, RateUpItem } from './gacha.interfa
 // --- Pool General de Items (No Rate-Up) ---
 // Estos son los "spooks" o items que pueden salir sin estar destacados
 
-export const ALL_SERVANTS: GachaItem[] = [
-  // 5 Estrellas (SSR)
-  { id: 's001', name: 'Artoria Pendragon', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/artoria.png' },
-  { id: 's002', name: 'Altera', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/altera.png' },
-  { id: 's003', name: 'Waver Velvet (Zhuge Liang)', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/waver.png' },
+    export const ALL_SERVANTS: GachaItem[] = [
+    // 5 Estrellas (SSR)
+    { id: 's001', name: 'Artoria Pendragon', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/artoria.png' },
+    { id: 's002', name: 'Altera', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/altera.png' },
+    { id: 's003', name: 'Waver Velvet (Zhuge Liang)', rarity: Rarity.SSR, type: CardType.SERVANT, imageUrl: '/images/servants/waver.png' },
 
   // 4 Estrellas (SR)
   { id: 's004', name: 'Siegfried', rarity: Rarity.SR, type: CardType.SERVANT, imageUrl: '/images/servants/siegfried.png' },
