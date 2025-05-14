@@ -23,7 +23,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results, isRolling }) =
       <h3 className="text-2xl sm:text-3xl font-semibold mb-6 text-center text-brand-primary">
         Resultados de la Invocación
       </h3>
-      {/* Ajusta el número de columnas según el tamaño de las cartas y el espacio disponible */}
+      {}
       <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4">
         {results.map((item, index) => (
           <Card key={`${item.id}-${index}-${Math.random()}`} item={item} />
