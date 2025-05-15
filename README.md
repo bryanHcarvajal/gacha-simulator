@@ -16,8 +16,6 @@ Un simulador web que recrea la experiencia de "rollear" en el juego de celular F
 
 ## 🚀 Capturas de Pantalla
 
-**Ejemplos de cómo se ve la aplicación:**
-
 ![Captura de Pantalla 1: Selección de Banner](apps/frontend/public/images/screenshot1.png)
 El usuario seleccionando un banner de invocación.
 
@@ -39,8 +37,6 @@ Sección de estadísticas mostrando SQ gastado y rarezas obtenidas.
 *   **Interfaz Amigable:** Diseño responsivo y atractivo utilizando Tailwind CSS con un tema oscuro.
 
 ## 🛠️ Tecnologías Utilizadas
-
-Menciona las herramientas y lenguajes principales:
 
 *   **Frontend:**
     *   [React.js](https://reactjs.org/)
